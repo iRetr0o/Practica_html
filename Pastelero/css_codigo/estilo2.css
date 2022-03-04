@@ -1,0 +1,69 @@
+/*---------------------------- Index del pastelero ---------------------------------*/
+
+* {
+    font-family: 'Handlee', cursive;
+}
+body {
+    background-image: url(../../imagenes/otro/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.nav, .footer {
+    background-color: #2cf;
+    width: 100%;
+    height: 6vh;
+    padding: 12px;
+    color: #fff;  
+}
+.main__h1, .main__h2 {
+    padding-left: 12px;
+}
+/*----------------- Este codigo aplica para el area de pedidos ---------------------*/
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #eee;
+    margin: 20px;
+    padding: 20px;
+}/*---------------------------------------------------------------------------------*/
+
+.form__flex {
+    padding: 10px;
+    width: 100%;
+}
+.form__seccion {
+    padding: 7px;
+    margin: 6px 0;
+}
+.form__seccion label {
+    font-weight: 600;
+}
+.formulario__input {
+    width: 100%;
+    padding: 3px;
+    margin: 4px 0;
+    border: none;
+    border-bottom: 2px solid #2cf;
+    background: transparent;
+}
+.formulario__input:focus, .formulario__textarea:focus {
+    background: linear-gradient(to bottom, #eee, #fff);
+    outline: none;
+}
+.flex__pedido {
+    width: 100%;
+    padding: 6px;
+    margin: 4px 4px;
+    background-color: #fff;
+}
+.flex__pedido p {
+    margin-top: 4px;
+}
+.flex__pedido:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.flex__pedido button {
+    margin-left: 90%;
+    padding: 6px;
+}

@@ -1,0 +1,246 @@
+/*----------------- Estilo que se repite (header y footer)--------------------------*/
+
+* {
+    font-family: 'Handlee', cursive;
+}
+body {
+    background-image: url(../../imagenes/otro/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto, 1fr, auto;
+}
+.nav{
+    background-color: #faf;
+    width: 100%;
+}
+.nav__li {
+    display: inline-block;
+    padding: 12px;
+}
+.nav__li a {
+    color: #fff;
+    text-decoration: none;
+}
+.nav__li:hover > a {
+    color: #eee;
+}
+.footer {
+    background-color: #faf;
+    width: 100%;
+    margin-top: 3em;
+}
+.footer__p {
+    display: inline-block;
+    color: #fff;
+    padding: 12px;
+}
+.footer__ul {
+    display: inline-block;
+}
+.footer__li {
+    display: inline-block;
+    padding: 12px;
+}
+.footer__li a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer__li:hover > a {
+    color: #eee;
+}
+
+/*----------------------------- Pagina Index -------------------------------------- */
+
+.articulo__h1 {
+    text-align: center;
+    margin: auto;
+    font-size: 1.5em;
+}
+.articulo__h2 {
+    margin: 1px;
+    padding: 9px;
+    font-size: 1.2em;
+}
+.informacion {
+    text-align: center;
+    margin: 2px;
+    padding: 5px;
+    font-size: 1.1em;
+}
+.logotipo {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    margin-bottom: 5em;
+}
+.logotipo img {
+    padding: 50px;
+    object-fit: scale-down;
+}
+/*----------------------------- Pagina pasteles ------------------------------------*/
+
+.descripcion_pasteles {
+    display: flex;
+    width: 100%;
+}
+.descripcion_pasteles h1 {
+    margin: auto;
+    padding: 9px 0;
+}
+.galeria__pastel {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 6px;
+    justify-content: space-evenly;
+    border: 3px solid #a18262;
+}
+.pastel {
+    margin: 15px;
+    padding: 2px 16px;
+    background-color: #fff;
+}
+.pastel:hover {
+    box-shadow: 0 8px 16px 0 rgb(0, 0, 0, 0.3);
+}
+.pastel img {
+    width: 300px;
+}
+
+
+/*----------------------------- Pagina adornos -------------------------------------*/
+
+.descripcion_adornos {
+    display: flex;
+    width: 100%;
+}
+.descripcion_adornos h1 {
+    margin: auto;
+    padding: 9px 0;
+}
+.galeria__adorno {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    justify-content: space-evenly;
+    border: 3px solid #a18262;
+}
+.adorno {
+    margin: 15px;
+    padding: 2px 16px;
+    background-color: #fff;
+}
+.adorno:hover {
+    box-shadow: 0 8px 16px 0 rgb(0, 0, 0, 0.3);
+}
+.adorno img {
+    width: 300px;
+}
+
+/*----------------------------- Pagina Ordena --------------------------------------*/
+
+.descripcion_formulario {
+    display: flex;
+    margin: 0 30px;
+    padding-top: 10px;
+}
+.descripcion_formulario h1, .descripcion_formulario h2{
+    margin: auto;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #eee;
+    margin: 20px 30px;
+    padding: 20px;
+}
+.formulario {
+    padding: 30px;
+    width: 100%;
+}
+.formulario__seccion {
+    padding: 7px;
+    margin: 6px 0;
+}
+.formulario__seccion label, .formulario__checkbox label {
+    font-weight: 600;
+}
+.formulario__input {
+    width: 100%;
+    padding: 3px;
+    margin: 4px 0;
+    border: none;
+    border-bottom: 2px solid #f9f;
+    background: transparent;
+}
+.formulario__input:focus {
+    background: linear-gradient(to bottom, #eee, #fff);
+    outline: none;
+}
+.formulario__checkbox {
+    padding: 5px;
+    margin: 0 5px;
+}
+.formulario__boton {
+    display: flex;
+    flex-wrap: wrap;
+}
+.formulario__boton-input {
+    background-color: #faf;
+    width: 50%;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px;
+}
+.formulario__boton-input:hover {
+    background-color: #f9f;
+}
+.formulario__boton-input:active {
+    background-color: #f8f;
+}
+
+/*----------------------------- Pagina Conocenos -----------------------------------*/
+
+.nosotros {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.nosotros__h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 2.5em;
+}
+.nosotros__h2 {
+    font-size: 1.7em;
+    font-weight: 600;
+}
+.nosotros__p1 {
+    margin: 0 10px;
+    font-size: 1.2em;
+}
+.nosotros__p2 {
+    margin: 0 10px;
+    font-size: 1.2em;
+}
+.nosotros__p3 {
+    margin: 0 10px;
+    font-size: 1.2em;
+}
+.nosotros__p3 a {
+    text-decoration: none;
+}
+.nosotros__img-container {
+    display: flex;
+    padding: 10px;
+    margin: 0 10px;
+    justify-content: center;
+    align-content: center;
+}
+.nosotros__img img {
+    object-fit: scale-down;
+}
+
+/*---------------------------------- Celulares --------------------------------------*/
