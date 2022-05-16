@@ -1,4 +1,4 @@
-# Practica de HTML
+# Práctica de HTML
 Está práctica muestra el caso de una pastelería cumpliendo los requisitos tanto para la vista del usuario como la del pastelero (solo es maquetacion en `HTML` pero se agrego un poco de `CSS`)
 ## Caso pasteleria
 ##### Requisitos:
